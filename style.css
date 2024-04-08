@@ -35,3 +35,16 @@ img {
 .bio-image {
     filter: grayscale() brightness(95%) contrast(120%);
 }
+
+.section-heading {
+    text-transform: uppercase;
+}
+
+.section-heading::after {
+    display: block;
+    content: "";
+    width: 64px;
+    border-bottom: 3px solid #ffcc01;
+    margin-top: 32px;
+    margin-left: 12px;
+}
