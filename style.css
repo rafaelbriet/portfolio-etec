@@ -1,0 +1,37 @@
+img {
+    max-width: 100%;
+}
+
+.site-header {
+    background-color: #222a35;
+    color: white;
+}
+
+.header-strip {
+    background-color: #f7f8ff;
+    height: 80px;
+}
+
+.header-decoration {
+    background-color: #ffcc01;
+    width: 100px;
+    height: 80px;
+}
+
+.bio-title {
+    color: #ffcc01;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: .9;
+    margin-top: 32px;
+}
+
+.bio-subtitle {
+    text-transform: uppercase;
+    font-size: .98rem;
+}
+
+.bio-image {
+    filter: grayscale() brightness(95%) contrast(120%);
+}
